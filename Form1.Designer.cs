@@ -32,6 +32,7 @@ namespace ScreenObserver
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.TransparencyKey = this.BackColor;
+            this.TopMost = true;
             this.Text = "Screen Observer";
             this.ClientSize = new System.Drawing.Size(640, 360);
         }
